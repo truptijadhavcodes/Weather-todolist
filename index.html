@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+    
+<section id="weatherCard">
+    <h2>🌤️ Pune Weather</h2>
+    <p id="weatherStatus">Loading weather...</p>
+    <h1 id="temperature">--°C</h1>
+    <p id="weatherDescription">Getting current conditions...</p>
+
+    <div class="weatherDetails">
+        <p>💧 Humidity: <span id="humidity">--</span>%</p>
+        <p>🌬️ Wind: <span id="windSpeed">--</span> km/h</p>
+    </div>
+
+    <button id="refreshWeatherBtn">Refresh Weather ↻</button>
+</section>
+
+    <h1>TO DO LIST</h1>
+    <h4>Stay Organized Get Things Done</h4>
+
+    <section id="Task">
+        <input type="text" id="inputTask" placeholder="What do u need to complete?">
+        <button id="AddTaskBtn">Add Task</button>
+    </section>
+
+    <section id="TaskFilter">
+        <button id="AllBtn">All Task</button>
+        <button id="CompletedBtn">Completed Task</button>
+        <button id="RemainingBtn">Remaining Task</button>
+    </section>
+
+    <section id="YourTasks">
+        <h2>YOUR TASKS:</h2>
+        <ul id="TaskList"></ul>
+    </section>
+
+    <footer>
+        <p id="TaskCounts"></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</main></body>
+</html>
